@@ -52,18 +52,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if hp&lt;0 {
-    instance_destroy();
-}
-if (player.was=="R" &amp;&amp; place_free(obj_ghost01.x + player.empuje,y)){
+            <string>if (player.was=="R" &amp;&amp; place_free(obj_ghost01.x + player.empuje,y)){
    x += player.empuje;
-    hp -= 1;
-    audio_play_sound(golpe01,10,false)
     }
 if (player.was=="L" &amp;&amp; place_free(obj_ghost01.x - player.empuje,y)){
     x -= player.empuje;
-    hp -= player.damage;
-    audio_play_sound(golpe01,10,false)
+    }
+audio_play_sound(golpe01,10,false)
+hp = hp - calcularGolpe(player.damage,armor);
+if (hp&lt;0){
+    instance_destroy();
     }
 
 </string>

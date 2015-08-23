@@ -26,16 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>//stats
-str=1;
-dex=1;
 vit=1;
-
-
-
-//impacto
-hp=100*player.lvl+(vit-1)*100;
-atk=10*player.lvl+(str-1)*10
-spd=4;
+armor=1;
+//como en D&amp;D vit=constitucion y el random simula 1d4 puntos de golpe
+hp=(irandom(4)*player.lvl)+(vit*player.lvl)
 
 
 //var de ia
