@@ -30,6 +30,12 @@
 }else{
     image_speed=1
 }
+
+//golpeado = inumindad por 1 segundo
+if (inmune&gt;0){
+    inmune --;
+   // if (sprite)
+    }
 </string>
           </argument>
         </arguments>
@@ -52,17 +58,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (player.was=="R" &amp;&amp; place_free(obj_ghost01.x + player.empuje,y)){
+            <string>
+if (player.was=="R" &amp;&amp; place_free(obj_ghost01.x + player.empuje,y) &amp;&amp; inmune&lt;=0){
    x += player.empuje;
     }
-if (player.was=="L" &amp;&amp; place_free(obj_ghost01.x - player.empuje,y)){
+if (player.was=="L" &amp;&amp; place_free(obj_ghost01.x - player.empuje,y) &amp;&amp; inmune&lt;=0){
     x -= player.empuje;
     }
-audio_play_sound(golpe01,10,false)
-hp = hp - calcularGolpe(player.damage,armor);
-if (hp&lt;0){
+if (inmune&lt;=0){
+    audio_play_sound(golpe01,10,false)
+    hp = hp - calcularGolpe(player.damage,armor);
+    inmune = escudo;
+}
+if (hp&lt;=0){
     instance_destroy();
-    }
+}
 
 </string>
           </argument>

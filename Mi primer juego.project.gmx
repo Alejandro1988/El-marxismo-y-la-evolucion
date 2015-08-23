@@ -19,7 +19,9 @@
         <sprite>sprites\spr_ghost01</sprite>
         <sprite>sprites\mask_ghost01</sprite>
         <sprite>sprites\enemigo2</sprite>
+        <sprite>sprites\enemigo2_esc</sprite>
         <sprite>sprites\enemigo3</sprite>
+        <sprite>sprites\enemigo3_esc</sprite>
       </sprites>
       <sprites name="playerSprites">
         <sprites name="mov">

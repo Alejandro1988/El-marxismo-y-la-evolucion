@@ -28,6 +28,8 @@
             <string>//stats
 vit=1;
 armor=1;
+escudo=20;
+inmune=0;
 //como en D&amp;D vit=constitucion y el random simula 1d4 puntos de golpe
 hp=(irandom(4)*player.lvl)+(vit*player.lvl)
 
