@@ -263,7 +263,9 @@ instance_destroy()
     }else{
         act=2
     }
-    cursor_h=0
+    if !(cursor_w=3) {
+        cursor_h=0
+    }
 }else{
     cursor_h+=1
 }
@@ -322,7 +324,9 @@ instance_destroy()
     }else{
         act=4
     }
-    cursor_h=2
+    if !(cursor_w=3) {
+        cursor_h=2
+    }    
 }else{
     cursor_h-=1
 }
