@@ -1,4 +1,4 @@
-x=irandom(3);
+x=choose(0,1,2,3);
 switch (x){
     case 0: return patrulla_circular;break;
     case 1: return patrulla_estrella; break;
