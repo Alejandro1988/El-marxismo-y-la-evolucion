@@ -48,9 +48,9 @@
         </sprites>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_inventory</sprite>
     <sprites name="inventario">
       <sprite>sprites\spr_select_inv</sprite>
+      <sprite>sprites\spr_inventory</sprite>
       <sprite>sprites\spr_vacio</sprite>
       <sprite>sprites\spr_select</sprite>
       <sprites name="objetos">
