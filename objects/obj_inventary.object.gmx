@@ -223,6 +223,7 @@ for (j = 1; j &lt; 10; j++){
                         }else{
                             global.inventario[act,1]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
@@ -238,12 +239,13 @@ for (j = 1; j &lt; 10; j++){
                     }   
                 break
                 case 1:
-                    if (global.inventario[act,1]=spr_vacio){
+                    if (global.inventario[act,4]=spr_vacio){
                         if(select=false){
                             //sonido de inv vacio
                         }else{
                             global.inventario[act,4]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
@@ -259,12 +261,13 @@ for (j = 1; j &lt; 10; j++){
                     }
                 break
                 case 2:
-                    if (global.inventario[act,1]=spr_vacio){
+                    if (global.inventario[act,7]=spr_vacio){
                         if(select=false){
                             //sonido de inv vacio
                         }else{
                             global.inventario[act,7]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
@@ -297,6 +300,7 @@ for (j = 1; j &lt; 10; j++){
                         }else{
                             global.inventario[act,2]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
@@ -318,6 +322,7 @@ for (j = 1; j &lt; 10; j++){
                         }else{
                             global.inventario[act,5]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
@@ -339,6 +344,7 @@ for (j = 1; j &lt; 10; j++){
                         }else{
                             global.inventario[act,8]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
@@ -372,6 +378,7 @@ for (j = 1; j &lt; 10; j++){
                         }else{
                             global.inventario[act,3]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
@@ -393,6 +400,7 @@ for (j = 1; j &lt; 10; j++){
                         }else{
                             global.inventario[act,6]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
@@ -414,6 +422,7 @@ for (j = 1; j &lt; 10; j++){
                         }else{
                             global.inventario[act,9]=global.inventario[s1,s2]
                             select=false
+                            global.inventario[s1,s2]=spr_vacio
                         }
                     }else{
                         if(select=false){
