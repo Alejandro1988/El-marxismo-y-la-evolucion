@@ -112,6 +112,7 @@
         <object>objects\obj_money</object>
         <object>objects\obj_em_take</object>
       </objects>
+      <object>objects\object16</object>
     </objects>
   </objects>
   <timelines name="timelines">
