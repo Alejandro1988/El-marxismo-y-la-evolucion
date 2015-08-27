@@ -28,8 +28,9 @@
             <string>//stats
 vit=1;
 armor=1;
-escudo=20;
-inmune=0;
+escudo=20; //escudo temporal que se genera al recibir golpe
+inmune=0;   //cantidad de escudo actual
+str=1;
 //como en D&amp;D vit=constitucion y el random simula 1d4 puntos de golpe
 hp=(irandom(4)*player.lvl)+(vit*player.lvl)
 

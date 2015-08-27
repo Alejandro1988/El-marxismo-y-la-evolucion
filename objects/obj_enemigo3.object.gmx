@@ -28,6 +28,7 @@
             <string>//stats
 vit=1;
 armor=1;
+str=1;
 escudo=10;
 inmune=0;
 //como en D&amp;D vit=constitucion y el random simula 1d4 puntos de golpe
