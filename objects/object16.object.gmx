@@ -30,7 +30,7 @@ for (i=1;i&lt;=3;i++){
     pagina[i]=array[3,3];
     for (j=1;j&lt;=3;j++){
         for(k=1;k&lt;=3;k++){
-            pagina[i].array[j,k]=0;
+            pagina[i].array[j,k]=0;// creo que es lo que buscabas
             }
         }
     }

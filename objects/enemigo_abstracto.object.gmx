@@ -34,7 +34,13 @@
 //golpeado = inumindad por 1 segundo
 if (inmune&gt;0){
     inmune --;
-   // if (sprite)
+//if (sprite)
+    }
+    
+// perseguir al pj
+if (distance_to_point(player.x, player.y)&lt;200){
+    path_end();                                 //abandonar el path
+    move_towards_point(player.x, player.y, 4);
     }
 </string>
           </argument>
