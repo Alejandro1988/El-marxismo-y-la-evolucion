@@ -39,8 +39,15 @@ if (inmune&gt;0){
     
 // perseguir al pj
 if (distance_to_point(player.x, player.y)&lt;200){
+    alert=true;
     path_end();                                 //abandonar el path
-    move_towards_point(player.x, player.y, 4);
+}
+
+if (alert &amp;&amp; atacando&lt;=0){
+   // move_towards_point(player.x, player.y, 4);
+    }
+if atacando&gt;0{
+    atacando--;
     }
 </string>
           </argument>
@@ -103,6 +110,16 @@ if (hp&lt;=0){
           <argument>
             <kind>1</kind>
             <string>player.hp=calcularGolpe(player.armor,str);
+atacando=30;
+if xprevious&gt;x
+    auxX=x+15
+else
+    auxX=x-15
+if yprevious&gt;y
+    auxY=y+15
+else
+    auxY=y-15
+move_towards_point(auxX, auxY, 10);
 </string>
           </argument>
         </arguments>

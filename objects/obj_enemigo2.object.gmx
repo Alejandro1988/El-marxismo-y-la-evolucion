@@ -37,6 +37,7 @@ hp=(irandom(4)*player.lvl)+(vit*player.lvl)
 
 //var de ia
 alert=false;
+atacando=0;
 
 
 // asigno un tipo de patrulla
