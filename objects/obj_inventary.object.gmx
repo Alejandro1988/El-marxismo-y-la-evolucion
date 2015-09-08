@@ -142,7 +142,11 @@ act=1
 if select=false{
     draw_sprite(spr_select,-1,cursor_x,cursor_y)
 }else{
+    if s1=1{
+        draw_sprite(global.equipo[s2,2],-1,cursor_x,cursor_y)
+    }else{
     draw_sprite(global.inventario[s2,2],-1,cursor_x,cursor_y)
+    }
 }
 
 switch (act)
@@ -159,7 +163,7 @@ switch (act)
 }            
 
 for (j = 1; j &lt; 6; j++){
-    if !(global.inventario[j,1]==""){
+    if !(global.equipo[j,1]==""){
     switch (j)
         {
             case 1:
@@ -183,7 +187,8 @@ for (j = 1; j &lt; 6; j++){
 
 for (j = act; j &lt; act+9; j++){
         if !(global.inventario[j,1]==""){
-            switch (j)
+            i=j-act+1
+            switch (i)
             {
                 case 1:
                     draw_sprite(global.inventario[j,2],-1,334,164)
@@ -298,6 +303,7 @@ for (j = act; j &lt; act+9; j++){
                         }else{
                             global.inventario[s2,1]=""
                         }
+                        select=false
                      }else{
                         //sonido inventario!!!!!
                      } 
