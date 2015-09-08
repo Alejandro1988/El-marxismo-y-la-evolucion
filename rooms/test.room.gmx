@@ -69,16 +69,9 @@
     <instance objName="obj_paredinv" x="320" y="64" name="inst_35789981" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_paredinv" x="320" y="96" name="inst_BF290148" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_paredinv" x="288" y="96" name="inst_28B035A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="288" y="224" name="inst_2E919CF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="320" y="224" name="inst_77EC074A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="352" y="224" name="inst_0CCAFCE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="288" y="256" name="inst_F082D872" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="320" y="256" name="inst_1A8B1DD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="352" y="256" name="inst_90A04D5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="288" y="288" name="inst_E71A32CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="320" y="288" name="inst_25544F25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_em_take" x="352" y="288" name="inst_8FC9C70F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="generador_enemigos" x="256" y="192" name="inst_56760F0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_take_em" x="224" y="288" name="inst_6223ED18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_take_em" x="256" y="288" name="inst_FA824E63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

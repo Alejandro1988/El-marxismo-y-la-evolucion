@@ -80,6 +80,9 @@
       <script>scripts\elegirEnemigo.gml</script>
     </scripts>
     <script>scripts\calcularGolpe.gml</script>
+    <scripts name="inventario">
+      <script>scripts\seleccion.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -109,10 +112,10 @@
     <objects name="inventario">
       <object>objects\obj_inventary</object>
       <objects name="drops">
+        <object>objects\obj_take_em</object>
         <object>objects\obj_money</object>
-        <object>objects\obj_em_take</object>
+        <object>objects\obj_take</object>
       </objects>
-      <object>objects\object16</object>
     </objects>
   </objects>
   <timelines name="timelines">
