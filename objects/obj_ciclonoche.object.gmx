@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>//set variables
-alpha=.9;
-ddia=5;
-dnoche=2;
+alpha=-0.9;
+ddia=10;
+dnoche=4;
 alarm[0]=room_speed*ddia;
 //setear superficie
 superficieNoche=surface_create(room_width,room_height);
