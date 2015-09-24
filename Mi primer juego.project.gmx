@@ -97,7 +97,6 @@
     <objects name="control">
       <object>objects\obj_ciclonoche</object>
       <object>objects\obj_roomTransition</object>
-      <object>objects\obj_controller</object>
     </objects>
     <objects name="enemigos">
       <object>objects\generador_enemigos</object>
