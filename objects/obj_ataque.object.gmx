@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>switch (global.inventario[1,2]){
+            <string>switch (global.equipo[2,2]){
 
 case spr_espada_madera: 
     if player.was=="R" {

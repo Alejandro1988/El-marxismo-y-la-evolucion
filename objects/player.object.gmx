@@ -50,8 +50,8 @@ spd=5;
 
 //inicio del pj
 accion=false;
-was="down";
-sprite_index= p_frente; //sprite inicial
+was="R";
+sprite_index= p_derecha; //sprite inicial
 image_speed=0; //sin animacion
 
 //inventario
@@ -117,12 +117,10 @@ if (!right &amp;&amp; left  &amp;&amp; place_free(x-spd,y)){
     was="L";
     x-=spd;}
 if (!up &amp;&amp; down &amp;&amp; place_free(x,y+spd)){
-    sprite_index= p_frente;
     image_speed=1;
     was="D";
     y+=spd;}
 if (up &amp;&amp; !down &amp;&amp; place_free(x,y-spd)){
-    sprite_index= p_espalda;
     image_speed=1;
     was="U";
     y-=spd;}
