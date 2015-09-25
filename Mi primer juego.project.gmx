@@ -25,10 +25,13 @@
       </sprites>
       <sprites name="playerSprites">
         <sprites name="mov">
-          <sprite>sprites\p_espalda</sprite>
-          <sprite>sprites\p_frente</sprite>
-          <sprite>sprites\p_derecha</sprite>
-          <sprite>sprites\p_izquierda</sprite>
+          <sprite>sprites\sprite27</sprite>
+          <sprites name="test">
+            <sprite>sprites\p_frente</sprite>
+            <sprite>sprites\p_izquierda</sprite>
+            <sprite>sprites\p_espalda</sprite>
+            <sprite>sprites\p_derecha</sprite>
+          </sprites>
         </sprites>
         <sprites name="atk">
           <sprite>sprites\p_atk_derecha</sprite>

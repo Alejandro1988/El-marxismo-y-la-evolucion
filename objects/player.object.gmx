@@ -118,11 +118,9 @@ if (!right &amp;&amp; left  &amp;&amp; place_free(x-spd,y)){
     x-=spd;}
 if (!up &amp;&amp; down &amp;&amp; place_free(x,y+spd)){
     image_speed=1;
-    was="D";
     y+=spd;}
 if (up &amp;&amp; !down &amp;&amp; place_free(x,y-spd)){
     image_speed=1;
-    was="U";
     y-=spd;}
 }
 
