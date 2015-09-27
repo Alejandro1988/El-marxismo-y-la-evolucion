@@ -25,7 +25,10 @@
       </sprites>
       <sprites name="playerSprites">
         <sprites name="mov">
-          <sprite>sprites\sprite27</sprite>
+          <sprite>sprites\spr_tree_1</sprite>
+          <sprite>sprites\mask_tree_1</sprite>
+          <sprite>sprites\spr_tree_2</sprite>
+          <sprite>sprites\mask_tree_2</sprite>
           <sprites name="test">
             <sprite>sprites\p_frente</sprite>
             <sprite>sprites\p_izquierda</sprite>
@@ -119,6 +122,7 @@
         <object>objects\obj_take</object>
       </objects>
     </objects>
+    <object>objects\obj_tree</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player_x=player.xstart;
+            <string>depth=-y;
+player_x=player.xstart;
 player_y=player.ystart;
 //stats
 lvl=1;
